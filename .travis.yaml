@@ -1,0 +1,18 @@
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+
+***REMOVED***
+***REMOVED*** build -t uday3110/react-test -f ./client/Dockerfile.dev ./client
+
+***REMOVED***
+***REMOVED*** run -e CI=true uday3110/react-test npm test
+
+***REMOVED***
+***REMOVED*** build -t uday3110/multi-client ./client
+***REMOVED*** build -t uday3110/multi-nginx ./nginx
+***REMOVED*** build -t uday3110/multi-server ./server
+***REMOVED*** build -t uday3110/multi-worker ./worker
+***REMOVED***
+  echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
