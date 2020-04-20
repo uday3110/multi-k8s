@@ -1537,7 +1537,7 @@ node_js:
 cache:
   directories:
     - node_modules
-***REMOVED***
+script:
   - npm run build
   - npm test
 ```
